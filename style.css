@@ -176,3 +176,22 @@
     font-weight: bold;
 
 }
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.manage {
+    display: flex;
+
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.container2 img {
+    width: 20vw;
+}
