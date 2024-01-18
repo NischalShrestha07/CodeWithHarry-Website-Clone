@@ -5,16 +5,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorials | CodeWithHarry</title>
+    <link rel="stylesheet" href="style.css">
     <style>
+        .sticky>.navbar,
+        .sub-navbar {
+            background: #1F2937;
+        }
 
+        .sub-navbar ul li {
+            list-style: none;
 
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 50px;
+            margin: 20px 20px;
+        }
+
+        .mainBox {
+            background: #111827;
+            /*background: #1F2937;*/
+        }
+
+        .mainBox h1 {
+            color: white;
+            text-align: center;
+            /*margin: 20px 30px;*/
+            padding: 20px;
+            color: #C084FC;
+        }
+
+        .btn4 {
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 15px;
+            background: #581C87;
+        }
+
+        .pyCon {
+            border: 2px solid black;
+            padding: 20px;
+            background: #1E293B;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+        }
+
+        .pyCon img {
+            width: 10vw;
+
+        }
+
+        .cCon {
+            border: 2px solid black;
+            padding: 20px;
+            background: #1E293B;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+        }
+
+        .cCon img {
+            width: 10vw;
+
+        }
+
+        .cppCon {
+            border: 2px solid black;
+            padding: 20px;
+            background: #1E293B;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+        }
+
+        .cppCon img {
+            width: 10vw;
+
+        }
+
+        .javaCon {
+            border: 2px solid black;
+            padding: 20px;
+            background: #1E293B;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+        }
+
+        .javaCon img {
+            width: 10vw;
+
+        }
     </style>
 </head>
 
 <body>
+    <div class="sticky">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logoCWH.png" alt="logo">
+                <h1><b>CodeWithHarry</b></h1>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Notes</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">My Gear</a> Gear</li>
+                <li><a href="#">Work With Us</a></li>
+                <img src="images/nightMode.png" alt="night">
+                <button class="btn1">Login</button>
+                <button class="btn1">Signup</button>
+
+            </ul>
+        </div>
+        <hr>
+        <div class="sub-navbar">
+
+            <p><a href="#"><ion-icon name="home-outline"></ion-icon></a>
+            </p>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JS</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">REACT JS</a> </li>
+            </ul>
+            <p><a href="#"><ion-icon name="search-outline"></ion-icon></a>
+            </p>
+        </div>
+    </div>
+
     <div class="mainBox">
         <h1>Tutorials</h1>
-
+        <div class="main">
+            <div class="pyCon">
+                <img src="images/python.webp" alt="python">
+                <h1>Python Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+            <div class="cCon">
+                <img src="images/c.webp" alt="c">
+                <h1>C Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+            <div class="cppCon">
+                <img src="images/cpp.webp" alt="cpp">
+                <h1>C++ Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+            <div class="javaCon">
+                <img src="images/java.webp" alt="java">
+                <h1>Java Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="pyCon">
+                <img src="images/python.webp" alt="python">
+                <h1>Python Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+            <div class="cCon">
+                <img src="images/c.webp" alt="c">
+                <h1>C Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+            <div class="cppCon">
+                <img src="images/cpp.webp" alt="cpp">
+                <h1>C++ Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+            <div class="javaCon">
+                <img src="images/java.webp" alt="java">
+                <h1>Java Tutorial</h1>
+                <button class="btn4">Start Learning!</button>
+            </div>
+        </div>
 
 
     </div>
