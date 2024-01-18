@@ -218,18 +218,21 @@
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 5px;
+    /* width: 20vw; */
 }
 
 .jsCon img {
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 5px;
+    width: 20vw;
 }
 
 .reactCon img {
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 5px;
+    /* width: 20vw; */
 }
 
 .reactCon p {
@@ -288,6 +291,8 @@
     /* padding: 1px; */
     border-radius: 15px;
     background: #1E293B;
+    width: 21vw;
+
 
 }
 
@@ -429,17 +434,26 @@
     color: white;
 }
 
+.btn2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .sanityCon {
     border: 1px solid black;
     /* padding: 1px; */
     border-radius: 15px;
     background: #1E293B;
+    width: 21vw;
 }
 
 .sanityCon img {
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 5px;
+    width: 20vw;
 }
 
 .strapiCon {
@@ -447,15 +461,34 @@
     /* padding: 1px; */
     border-radius: 15px;
     background: #1E293B;
+    width: 21vw;
 }
 
 .strapiCon img {
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 5px;
+    width: 20vw;
+
 }
 
 .gridContainer {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+.mainCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 200px; */
+}
+
+.gridItem {
+    gap: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
