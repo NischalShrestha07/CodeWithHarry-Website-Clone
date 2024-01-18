@@ -218,7 +218,21 @@
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 5px;
-    /* width: 20vw; */
+    width: 21vw;
+}
+
+.tailwindCon {
+    border: 1px solid black;
+    padding: 28px;
+    border-radius: 15px;
+    background: #1E293B;
+}
+
+.tailwindCon img {
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 21vw;
 }
 
 .jsCon img {
@@ -232,7 +246,7 @@
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 5px;
-    /* width: 20vw; */
+    width: 20vw;
 }
 
 .reactCon p {
@@ -297,12 +311,12 @@
 }
 
 .reactCon {
-    padding: 15px 2px;
+    /* padding: 10px; */
     border: 1px solid black;
     /* padding: 1px; */
     border-radius: 15px;
     background: #1E293B;
-
+    width: 26vw;
 }
 
 .container3 {
@@ -443,7 +457,7 @@
 
 .sanityCon {
     border: 1px solid black;
-    /* padding: 1px; */
+    padding: 4px;
     border-radius: 15px;
     background: #1E293B;
     width: 21vw;
@@ -482,6 +496,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: #111827;
     /* gap: 200px; */
 }
 
@@ -491,4 +506,9 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+.mainCont h1 {
+    margin: 20px auto;
+    color: #6B21A7;
 }
