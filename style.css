@@ -428,3 +428,34 @@
 
     color: white;
 }
+
+.sanityCon {
+    border: 1px solid black;
+    /* padding: 1px; */
+    border-radius: 15px;
+    background: #1E293B;
+}
+
+.sanityCon img {
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.strapiCon {
+    border: 1px solid black;
+    /* padding: 1px; */
+    border-radius: 15px;
+    background: #1E293B;
+}
+
+.strapiCon img {
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
