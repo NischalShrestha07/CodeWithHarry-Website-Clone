@@ -242,6 +242,13 @@
     width: 20vw;
 }
 
+.nextCon img {
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 20vw;
+}
+
 .reactCon img {
     margin-left: 10px;
     border-radius: 10px;
@@ -301,6 +308,17 @@
 }
 
 .jsCon {
+    border: 1px solid black;
+    /* padding: 1px; */
+    border-radius: 15px;
+    background: #1E293B;
+    width: 21vw;
+
+
+}
+
+.nextCon {
+
     border: 1px solid black;
     /* padding: 1px; */
     border-radius: 15px;
