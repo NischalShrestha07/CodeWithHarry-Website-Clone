@@ -5,15 +5,19 @@
     box-sizing: border-box;
 }
 
+.sticky {
+    top: 0;
+    z-index: 100;
+    position: sticky;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #111827;
     color: white;
-    top: 0;
-    z-index: 100;
-    position: sticky;
+
 }
 
 .btn1 {
@@ -84,9 +88,7 @@
 
 .sub-navbar {
     display: flex;
-    top: 0;
-    z-index: 100;
-    position: sticky;
+
     justify-content: space-between;
     height: 20px;
     align-items: center;
@@ -218,6 +220,35 @@
     margin-top: 5px;
 }
 
+.jsCon img {
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.reactCon img {
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.reactCon p {
+    font-size: 17px;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.reactCon h5 {
+    margin: 7px 10px;
+
+}
+
+.reactCon button {
+    margin-top: 15px;
+
+
+}
+
 .padd {
     color: white;
     padding: 5px 7px;
@@ -251,3 +282,22 @@
 
 
 }
+
+.jsCon {
+    border: 1px solid black;
+    /* padding: 1px; */
+    border-radius: 15px;
+    background: #1E293B;
+
+}
+
+.reactCon {
+    padding: 15px 2px;
+    border: 1px solid black;
+    /* padding: 1px; */
+    border-radius: 15px;
+    background: #1E293B;
+
+}
+
+/* .reactCon { */
